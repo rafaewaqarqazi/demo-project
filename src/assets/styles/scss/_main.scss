@@ -1,0 +1,30 @@
+.main{
+  flex-grow: 1;
+}
+.main-container{
+  //margin-top: 130px;
+  height: 100%;
+  //padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img-container{
+  background-color: #f3efee;
+  height: 280px;
+  padding: 10px;
+}
+.tag  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $primary;
+  padding: 5px;
+  color: #fff;
+}
+.card-txt{
+  text-align: center;
+  color: $light-green;
+  font-size: 12px;
+  margin-top: 5px;
+}
